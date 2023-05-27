@@ -12,7 +12,7 @@ html, body {
 }
 
 .ShellTop {
-    flex: 0.5;
+    flex: 1;
     background-color: var(--shell-top-background-color);
     color: var(--shell-top-color);
     display: flex;
@@ -141,3 +141,90 @@ html, body {
     padding-left: 1em;
     padding-bottom: 1em;
 }
+
+/* APP */
+
+.cadre__navigation {
+    min-height: 2em;
+    height: auto;
+    background-color: #e6e7ee;
+    color: black;
+    padding-top: 0.5em;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+}
+
+.cadre__service_logo {
+    padding-top: 1em;
+}
+
+.navigation__application {
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    margin:0;
+    list-style-type:none;
+}
+
+.navigation__application_element {
+    float: left;
+    margin-left: 10px;
+}
+
+.container__application-passwchecker {
+    padding-top: 5em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.ShellPassWC__label-password {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: var(--shellpasswc-label-password-color);
+}
+
+.ShellPassWC__input-password {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    width: 80%;
+    height: 2.5em;
+    border: 1px solid var(--shellpasswc-input-password-border);
+    background-color: var(--shellpasswc-input-password-background);
+    color: var(--shellpasswc-input-password-color);
+}
+
+.ShellPassWC__input-show {
+    width: 19%;
+    height: 2.7em;
+    background-color: #3D5A8D;
+    border: 1px solid #3D5A8D;
+    color: white;
+    cursor: pointer;
+}
+
+.ShellPassWC__cadre {
+    padding: 1em;
+}
+
+.ShellPassWC__message-error {
+    color: red;
+}
+
+.ShellPassWC__message-error::before {
+    content: "❌ "
+}
+
+.ShellPassWC__message-success {
+    color: green;
+}
+
+.ShellPassWC__message-success::before {
+    content: "✅ "
+}
+
+.ShellPassWC__progressbar {
+    width: 100%;
+    height: 2.5em;
+    border-radius: 0;
+}
+
+/* APP */

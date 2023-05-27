@@ -9,4 +9,10 @@
     --shellauth-load-card-border-top: 1px solid #F1F0F9;
     --cadre-service-background-color: #1A1A1A;
     --cadre-service-color: white;
+    /* APP */
+    --shellpasswc-label-password-color: white;
+    --shellpasswc-input-password-border: black;
+    --shellpasswc-input-password-background: #1A1A1A;
+    --shellpasswc-input-password-color: white;
+    /* APP */
 }
